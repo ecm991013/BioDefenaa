@@ -3,6 +3,6 @@ services:
     name: biodefensa
     runtime: node
     plan: free
-    buildCommand: unzip -o BioDefensa_0_12_3.zip -d .
+    buildCommand: unzip -o BioDefensa_0_12_5.zip -d .
     startCommand: node virus_multijugador/server.js
     healthCheckPath: /api/ping
